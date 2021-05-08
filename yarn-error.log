@@ -1,0 +1,33 @@
+Arguments: 
+  /Users/qinxiaoqian/.nvm/versions/node/v10.22.0/bin/node /Users/qinxiaoqian/.nvm/versions/node/v10.22.0/bin/yarn
+
+PATH: 
+  /Users/qinxiaoqian/.nvm/versions/node/v10.22.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/qinxiaoqian/.nvm/versions/node/v10.22.0/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  10.22.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND npm-registry.qunhequnhe.com npm-registry.qunhequnhe.com:80
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+
+npm manifest: 
+  {
+    "name": "root",
+    "private": true,
+    "devDependencies": {
+      "lerna": "^4.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
